@@ -17,7 +17,9 @@ export default function Home() {
 			<Curve backgroundColor={'#B0AD98'}>
 				<div className="top">
 					<div className="text-white text-center text-3xl font-bold">
-						<div className="top-5 text-center mt-5">ALL EXPLORE - BANSKO</div>
+						<div className="right-text top-5 text-center mt-5">
+							ALL EXPLORE - BANSKO
+						</div>
 						<Image src="/poster1.jpg" width={1000} height={500} alt="top" />
 					</div>
 				</div>

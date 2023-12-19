@@ -1,9 +1,8 @@
 import Image from 'next/image';
-import { Inter } from 'next/font/google';
+
 import Curve from '@/components/Curve';
 import Head from 'next/head';
-
-const inter = Inter({ subsets: ['latin'] });
+import PresentHero from '@/components/Front-page/present-hero';
 
 export default function Home() {
 	return (
@@ -19,6 +18,19 @@ export default function Home() {
 					<div className="text-white text-center text-3xl font-bold">
 						<div className="top-5 text-center mt-5">ALL EXPLORE - BANSKO</div>
 						<Image src="/poster1.jpg" width={1000} height={500} alt="top" />
+						<div>Bansko Trip Planer AI</div>
+						<div className="bg-indigo-500 bg-opacity-40 text-white font-bold">
+							Your Next Vacation, Optimized
+						</div>
+						<button className="mt-2 ml-48">
+							<div className="bg-blue-500 bg-opacity-70 w-[200px] items-center justify-center flex h-[30px] rounded-md shadow-md text-white font-bold">
+								NEW TRIP
+							</div>
+						</button>
+						<div className="text-2 text-sm text-gray-500 min-w-[600px] justify-center text-center flex underline">
+							Your AI-POWERD TRIP planer for BANSKO
+						</div>
+						<PresentHero />
 					</div>
 				</div>
 			</Curve>
