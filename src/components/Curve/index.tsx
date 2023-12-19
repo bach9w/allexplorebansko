@@ -8,6 +8,7 @@ const routes: Record<string, string> = {
 	'/': 'HOME',
 	'/about': 'ABOUT',
 	'/contact': 'Contact',
+	'/services': 'SERVICES',
 };
 
 const anim = (variants: any) => {
